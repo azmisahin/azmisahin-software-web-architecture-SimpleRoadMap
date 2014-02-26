@@ -1,0 +1,24 @@
+Design and implement an API according to the requirements below:
+
+- The API must accept a set of data in one format, and output the data in a different format
+- The API must provide the ability to filter and sort the records by one or more fields (e.g. filter by City, or sort by District ASCENDING/DESCENDING)
+- The API must support 2 formats: CSV and XML. But it should provide an easy plugin/extension mechanism for new formats (ex. JSON)
+- Data format specifications are attached (schema.xsd, schema.csv)
+- Implementation should be done in C# or Java.
+
+You must also provide unit tests covering core parts of your implementation and the following cases:
+
+- Test case #1: Generate XML output from CSV input, filtered by City name=’Antalya’
+- Test case #2: Generate CSV output from CSV input, sorted by City name ascending, then District name ascending
+- Test case #3: Generate CSV output from XML input, filtered by City name=’Ankara’ and sorted by Zip code descending
+
+Submit a zip file with your source code and instructions on how to compile/run unit tests.
+You should also provide brief explanation of your solution:
+
+- Any assumptions and reasoning behind your API design
+- Implementation trade-offs you made, used design patterns, possible performance issues, etc.
+- List of 3rd party libraries used
+
+Note for C#: it will be easier for us to evaluate your solution if you provide it in Visual Studio project format.
+
+Note for Java: It will be easier for us to evaluate your solution if you provide it in Maven project format, but any popular IDE (e.g. ItelliJ IDEA, Eclipse, etc.) project format is also acceptable.

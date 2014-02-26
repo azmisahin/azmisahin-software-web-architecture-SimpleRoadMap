@@ -1,0 +1,49 @@
+Ýstekleri incele
+- Dosya içerik formatlarýný farklý formatlarýna çevirme
+- csv -> xml , csv -> json, xml -> csv, xml -> csv, xml -> json
+- Ýçerikleri kolay kullanýlabilir objelere çevirme
+- byte -> obje class -> serialize
+- Ýçerikler içerisinde dolaþma, sorgulama
+- Kullanýcýlar için basit eriþim adlarý oluþturma
+- Methodlarý geliþtir, geniþlet
+		
+Konuyla ilgili bilgi araþtýr (Standartlar)
+- http://en.wikipedia.org/wiki/Comma-separated_values
+- http://tools.ietf.org/html/rfc4180
+- http://en.wikipedia.org/wiki/Comparison_of_data_serialization_formats
+- http://en.wikipedia.org/wiki/Xml
+- http://tools.ietf.org/html/rfc3023
+- http://en.wikipedia.org/wiki/Json
+- http://en.wikipedia.org/wiki/Internet_media_type
+
+Konuyla ilgili bilgi araþtýr (Msdn)
+- http://msdn.microsoft.com/en-us/library/bb387087.aspx
+- http://msdn.microsoft.com/en-us/library/cc188996(v=vs.95).aspx
+- http://msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx
+- http://msdn.microsoft.com/en-us/library/system.linq(v=vs.110).aspx
+- http://msdn.microsoft.com/en-us/library/system.io(v=vs.110).aspx
+- http://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx
+- http://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.aspx
+
+Konuyla ilgili bilgi araþtýr (Örnekler)
+- http://msdn.microsoft.com/en-us/library/microsoft.visualbasic.fileio.textfieldparser.aspx
+- http://msdn.microsoft.com/en-us/library/system.xml.serialization(v=vs.110).aspx
+- http://sourceforge.net/projects/fteditor
+- http://sourceforge.net/projects/flafi
+- https://github.com/JoshClose/CsvHelper
+
+Konuyla ilgili bilgi araþtýr (Makale)
+- http://www.codeproject.com/Articles/9258/A-Fast-CSV-Reader
+- http://www.codeproject.com/Articles/566656/CSV-Serializer-for-NET
+
+
+Uygulamayý Geliþtir
+- Düz dosya okuma yap(UTF-8), class modeline çevir (þemalarý kullan), dosya tipi þeklinde metin çýkar
+- IDE: Visual Studio 2013 Express for Web ( Kütüphane)
+- csv, xml, json modülleri oluþtur
+- Dosya okuma, serileþtirme özellikleri kazandýr
+- Geliþtiriciler icin eriþebilirlik saðla
+- Test Kodu oluþtur
+- Gerçek Zamanlý Test Et
+- Yeni fikirle için yayýmla
+- https://github.com/azmisahin/ViaConvert

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViaConvert", "ViaConvert\ViaConvert.csproj", "{02F58005-17E9-4489-9263-87AC61217B79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{AAAD97C2-CAEC-4841-B7C0-A64DB7457BC7}"
+	ProjectSection(SolutionItems) = preProject
+		data\sampe.json = data\sampe.json
+		data\sample.csv = data\sample.csv
+		data\sample.xml = data\sample.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "request", "request", "{79E35DA3-FB8B-43FB-A842-220F4DE94058}"
+	ProjectSection(SolutionItems) = preProject
+		request\Api.txt = request\Api.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "roadmap", "roadmap", "{60E3AE0B-DC44-4DA9-91C7-49A908F2D00D}"
+	ProjectSection(SolutionItems) = preProject
+		roadmap\Api.txt = roadmap\Api.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViaConvert.Test", "ViaConvert.Test\ViaConvert.Test.csproj", "{D1B44DFA-75EC-41B4-A567-E05A189240DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViaConvert.Test.Web", "ViaConvert.Test.Web\ViaConvert.Test.Web.csproj", "{6C1CB180-C130-4860-A49F-CE4C89846E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{B3B22DAF-DB53-4233-87A3-CD279F6FECEB}"
+	ProjectSection(SolutionItems) = preProject
+		packages\repositories.config = packages\repositories.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F58005-17E9-4489-9263-87AC61217B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F58005-17E9-4489-9263-87AC61217B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F58005-17E9-4489-9263-87AC61217B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F58005-17E9-4489-9263-87AC61217B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B44DFA-75EC-41B4-A567-E05A189240DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B44DFA-75EC-41B4-A567-E05A189240DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B44DFA-75EC-41B4-A567-E05A189240DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B44DFA-75EC-41B4-A567-E05A189240DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1CB180-C130-4860-A49F-CE4C89846E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1CB180-C130-4860-A49F-CE4C89846E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1CB180-C130-4860-A49F-CE4C89846E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1CB180-C130-4860-A49F-CE4C89846E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
